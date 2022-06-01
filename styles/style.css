@@ -7,7 +7,7 @@ b, i,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure, 
+article, aside, canvas, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section, summary,
 time, mark, audio, video {
     margin:0;
@@ -92,7 +92,7 @@ ul {
 
 
 /*ãƒ­ã‚´ãƒ†ã‚­ã‚¹ãƒˆï¼ˆSAMPLEæ ªå¼ä¼šç¤¾ï¼‰*/
-header #logo {   
+header #logo {
     margin: 0;
     letter-spacing: 0.1em;    /*æ–‡å­—é–“éš”ã‚’å°‘ã—ã ã‘åºƒãã¨ã‚‹è¨­å®š*/
     font-size: 2.2rem;        /*æ–‡å­—ã‚µã‚¤ã‚ºã€‚remã®å˜ä½ã«ã¤ã„ã¦ã¯ãƒ†ãƒ³ãƒ—ãƒ¬ãƒ¼ãƒˆå†…ã®è§£èª¬ã‚’ãŠèª­ã¿ä¸‹ã•ã„ã€‚*/
@@ -120,7 +120,7 @@ header {
 }
 
 /*ãƒ­ã‚´ãƒ†ã‚­ã‚¹ãƒˆï¼ˆSAMPLEæ ªå¼ä¼šç¤¾ï¼‰*/
-header #logo {   
+header #logo {
     margin: 0;
     letter-spacing: 0.1em;    /*æ–‡å­—é–“éš”ã‚’å°‘ã—ã ã‘åºƒãã¨ã‚‹è¨­å®š*/
     font-size: 2.2rem;        /*æ–‡å­—ã‚µã‚¤ã‚ºã€‚remã®å˜ä½ã«ã¤ã„ã¦ã¯ãƒ†ãƒ³ãƒ—ãƒ¬ãƒ¼ãƒˆå†…ã®è§£èª¬ã‚’ãŠèª­ã¿ä¸‹ã•ã„ã€‚*/
@@ -142,8 +142,9 @@ header #logo img {
 #menubar {
 	max-width: 90%;
 	margin: 50px auto 0 auto;
-	padding: 0 200px;
-   
+	/* padding: 0 200px; */
+    padding-left: 5%;
+    padding-right: 5%;
 }
 #menubar ul {
     list-style: none;
@@ -189,7 +190,7 @@ body {
     line-height:1;
 }
 article,aside,details,figcaption,figure,
-footer,header,hgroup,menu,nav,section { 
+footer,header,hgroup,menu,nav,section {
     display:block;
 }
 ul {
@@ -219,7 +220,7 @@ ins {
 /* change colours to suit your needs */
 mark {
     background-color:#ff9;
-    color:#000; 
+    color:#000;
     font-style:italic;
     font-weight:bold;
 }
@@ -238,7 +239,7 @@ table {
 hr {
     display:block;
     height:1px;
-    border:0;   
+    border:0;
     border-top:1px solid #cccccc;
     margin:1em 0;
     padding:0;
@@ -258,7 +259,7 @@ img {
 #mp_p{
     margin: 0 auto;
     display: block;
-    width: 25%;  
+    width: 25%;
 }
 
 #mono_img{
