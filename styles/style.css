@@ -289,3 +289,131 @@ main h4 {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
+
+#preview-img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    object-fit: scale-down;
+    display: block;
+    border: gray solid 1px;
+    border-radius: 0.5rem;
+}
+#preview-img[src=''] {
+    display: none;
+}
+#preview-img[src=''] {
+    display: none;
+}
+input {
+    margin-bottom: 1rem;
+}
+input[type="file"] {
+    display: none;
+}
+
+.btn-v2 {
+    font-size: 0.8rem;
+    padding: 0.5rem 1rem;
+}
+
+.btn {
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.5;
+    position: relative;
+    display: inline-block;
+    padding: 1rem 4rem;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    border-radius: 0.5rem;
+}
+.upload-btn {
+    font-size: 1.2rem;
+    line-height: 1;
+    position: relative;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    border-radius: 0.5rem;
+}
+.btn,
+.upload-btn {
+    color: #fff;
+    background-color: #00a0ff;
+    border-color: #00a0ff;
+    margin-top: 1em;
+}
+.btn:hover,
+.upload-btn:hover {
+    color: #fff;
+    background-color: #00d0ff;
+    border-color: #00d0ff;
+}
+
+/*ロゴテキスト（SAMPLE株式会社）*/
+header #logo {
+    margin: 0;
+    letter-spacing: 0.1em;
+    /*文字間隔を少しだけ広くとる設定*/
+    font-size: 2.2rem;
+    /*文字サイズ。remの単位についてはテンプレート内の解説をお読み下さい。*/
+}
+
+header #logo a {
+    text-decoration: none;
+}
+
+/*ロゴテキストを画像にした場合*/
+header #logo img {
+    width: 400px;
+    /*画像の幅*/
+    padding: 0px 20px;
+    /*上下、左右へ空ける余白*/
+}
+
+/*headerブロック（ロゴが入った最上段のブロック）
+---------------------------------------------------------------------------*/
+/*headerブロック*/
+header {
+    text-align: center;
+    /*中身をセンタリングする*/
+    padding-top: 80px;
+    /*上に空ける余白*/
+    padding-bottom: 40px;
+    /*上に空ける余白*/
+
+}
+
+/*ロゴテキスト（SAMPLE株式会社）*/
+header #logo {
+    margin: 0;
+    letter-spacing: 0.1em;
+    /*文字間隔を少しだけ広くとる設定*/
+    font-size: 3.0rem;
+    /*文字サイズ。remの単位についてはテンプレート内の解説をお読み下さい。*/
+}
+
+header #logo a {
+    text-decoration: none;
+    color: #000;
+}
