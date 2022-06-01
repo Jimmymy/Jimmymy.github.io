@@ -1,0 +1,40 @@
+<html lang="ja-JP">
+    <head>
+        <title>Exhibit</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/style.css">
+        <script src="scripts/exhibit.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1 id="logo"><a href="index.html">都市大フリマと出会い</a></h1>
+        </header>
+        <!--メインメニュー-->
+        <nav id="menubar">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="exhibit.html">POST</a></li>
+                <li><a href="mypage.html">MYPAGE</a></li>
+            </ul>
+        </nav>
+
+        <hr>
+
+        <main>
+            <h3>商品の投稿</h3>
+            <form>
+                <h4>商品の画像</h4>
+                <img id="preview-img" src=""/>
+                <input id="input-img" type="file" placeholder="image" accept="image/*" />
+                <button type="button" class="btn-v2" onclick="document.querySelector('#input-img').click()">Select image</button>
+                <h4>商品の名前</h4>
+                <input type="text" name="name" placeholder="name">
+                <h4>商品の説明</h4>
+                <input type="text" name="description" placeholder="description">
+                <br>
+                <button type="submit" class="btn-v2" name="submit">Submit</button>
+            </form>
+        </main>
+    </body>
+</html>
