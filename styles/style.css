@@ -154,6 +154,7 @@ header #logo img {
 /*ãƒªãƒ³ã‚¯ãƒ†ã‚­ã‚¹ãƒˆã®è¨­å®š*/
 #menubar a {
 	display: block;
+	color:rgb(0,0,0);
     text-decoration: none;
     font-size: 1.5rem;
 	padding: 0 80px;	/*ä¸Šä¸‹ã€å·¦å³ã¸ã®ãƒ†ã‚­ã‚¹ãƒˆå†…ã«ã¨ã‚‹ä½™ç™½ã€‚*/
